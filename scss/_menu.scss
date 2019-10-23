@@ -13,7 +13,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -69,7 +69,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: rgba(54, 54, 54, 0.9);
+    background: set-bg-color-darker($primary-color);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -82,7 +82,7 @@
 
   // Branding Side 
   &-branding {
-    background-color: rgba(67, 67, 67, 0.9);
+    background-color: set-bg-color($primary-color);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -121,7 +121,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
